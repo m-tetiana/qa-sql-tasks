@@ -1,0 +1,1 @@
+select * from posts p left join posts_tags pt on p.id = pt.post_id where pt.post_id is null;

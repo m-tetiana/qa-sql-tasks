@@ -1,0 +1,1 @@
+select count(*) from posts where date >= curdate() - INTERVAL 1 DAY;

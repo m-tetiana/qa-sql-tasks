@@ -1,0 +1,1 @@
+select * from twits order by create_date desc;

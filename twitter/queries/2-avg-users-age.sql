@@ -1,0 +1,1 @@
+select avg(year(now()) - year(u.birthday)) as Average from users u;
